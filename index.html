@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HNG Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 data-testid="slackDisplayName">Sholyjay</h1>
+        <img data-testid="slackProfilePicture" src="assets/Profile-Picture.jpeg" class="jog" alt="Profile-Picture">
+        <nav>
+            <ul>
+                <li><a href="#goals">Goals</a></li>
+                <li><a href="#links">Links</a></li>
+                <li><a href="#contact-info">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="goals">
+            <h1>My Tech Goals for the Next 2 Years</h1>
+            <h3>1. Master HTML & CSS</h3>
+            <ul>
+                <li><strong>HTML5</strong>: Gain a deep understanding of HTML, focusing on semantic markup and best practices.</li>
+                <li><strong>CSS</strong>: Master advanced styling techniques, including Flexbox, Grid layouts, and CSS animations.</li>
+                <li><strong>Responsive Design</strong>: Ensure websites look great on all devices using responsive design principles, media queries, and responsive units.</li>
+                <li><strong>Preprocessors</strong>: Learn CSS preprocessors like SASS or LESS to write more maintainable and scalable CSS.</li>
+            </ul>
+
+            <h3>2. JavaScript Proficiency</h3>
+            <ul>
+                <li><strong>Core JavaScript</strong>: Achieve proficiency in JavaScript, including ES6+ features like arrow functions, destructuring, template literals, and modules.</li>
+                <li><strong>Asynchronous Programming</strong>: Understand and apply asynchronous programming concepts, including Promises, Async/Await, and working with APIs.</li>
+                <li><strong>DOM Manipulation</strong>: Gain expertise in manipulating the DOM using vanilla JavaScript and jQuery.</li>
+            </ul>
+
+            <h3>3. Front-End Frameworks & Libraries</h3>
+            <ul>
+                <li><strong>React.js</strong>: Learn React.js for building dynamic, component-based user interfaces. Focus on hooks, state management, and routing.</li>
+                <li><strong>Vue.js</strong>: Explore Vue.js as an alternative framework, understanding its core concepts and ecosystem.</li>
+                <li><strong>State Management</strong>: Master state management libraries like Redux or Vuex to handle complex application states.</li>
+            </ul>
+
+            <h3>4. Build Real-World Projects</h3>
+            <ul>
+                <li><strong>Portfolio Website</strong>: Create and maintain a personal portfolio website to showcase your projects and skills.</li>
+                <li><strong>Single Page Applications (SPAs)</strong>: Build SPAs using React.js or Vue.js to gain hands-on experience.</li>
+                <li><strong>Open Source Contributions</strong>: Contribute to open source projects to gain real-world experience and collaborate with other developers.</li>
+            </ul>
+
+            <h3>5. Tools & Workflow Optimization</h3>
+            <ul>
+                <li><strong>Version Control</strong>: Master Git for version control, including branching, merging, and pull requests.</li>
+                <li><strong>Build Tools</strong>: Learn how to use build tools like Webpack, Gulp, or Parcel to optimize and automate development workflows.</li>
+                <li><strong>Code Quality</strong>: Implement code quality tools like ESLint and Prettier to ensure clean, consistent code.</li>
+            </ul>
+
+            <h3>6. Design & User Experience</h3>
+            <ul>
+                <li><strong>UI/UX Design</strong>: Understand the basics of UI/UX design principles to create visually appealing and user-friendly interfaces.</li>
+                <li><strong>Design Tools</strong>: Learn to use design tools like Figma or Sketch to create mockups and prototypes.</li>
+                <li><strong>Accessibility</strong>: Ensure that websites are accessible to all users by following accessibility best practices and guidelines.</li>
+            </ul>
+
+            <h3>7. Continuous Learning & Professional Development</h3>
+            <ul>
+                <li><strong>Online Courses</strong>: Complete various online courses and tutorials from platforms like freeCodeCamp, Codecademy, and Coursera.</li>
+                <li><strong>Certifications</strong>: Earn certifications in front-end development to validate your skills and knowledge.</li>
+                <li><strong>Stay Updated</strong>: Keep up with the latest trends and technologies in front-end development by following industry blogs, podcasts, and attending webinars.</li>
+            </ul>
+        </section>
+
+        <section id="links">
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a data-testid="hngLink" href="https://hng.tech/learn">HNG Tech</a></li>
+                <li><a data-testid="keywordLink" href="https://keyword.dog">Keyword Dog</a></li>
+                <li><a data-testid="scrapeanywebLink" href="https://scrapeanyweb.site">Scrape Any Web</a></li>
+            </ul>
+        </section>
+
+        <section id="contact-info">
+            <h2>Contact Information</h2>
+            <p data-testid="slackEmail">Olakanmisola042@gmail.com</p>
+        </section>
+    </main>
+
+    <footer>
+        <p data-testid="currentTimeUTC">Current Time in UTC: <span id="utc-time"></span></p>
+        <p data-testid="currentDay">Current Day: <span id="current-day"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
