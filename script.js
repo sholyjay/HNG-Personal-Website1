@@ -22,25 +22,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Update time every second
     setInterval(updateUTCTime, 1000);
-
-    // Carousel functionality
-    const items = document.querySelectorAll('.carousel-item');
-    let currentItem = 0;
-
-    function showNextItem() {
-        items[currentItem].classList.remove('active');
-        currentItem = (currentItem + 1) % items.length;
-        items[currentItem].classList.add('active');
-    }
-
-    function showPrevItem() {
-        items[currentItem].classList.remove('active');
-        currentItem = (currentItem - 1 + items.length) % items.length;
-        items[currentItem].classList.add('active');
-    }
-
-    document.querySelector('.carousel .next').addEventListener('click', showNextItem);
-    document.querySelector('.carousel .prev').addEventListener('click', showPrevItem);
-
-    setInterval(showNextItem, 3000); // Automatically change image every 3 seconds
 });
